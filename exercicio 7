@@ -1,0 +1,5 @@
+#F.U.P. que execute a fatoração de um determinado número.#
+
+from math import factorial 
+a = int(input("insira um numero:")) 
+print(factorial(a)) 
