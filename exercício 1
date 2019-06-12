@@ -1,0 +1,7 @@
+#Faça Um Programa em Python que aceite o raio de um círculo do usuário e calcule a área.#
+
+pi = 3.14 
+r = int(input("digite o raio do circulo em metros: ")) 
+raio = (r ** 2) 
+area = pi * raio 
+print("a area do circulo é de: ", area, "metros")
