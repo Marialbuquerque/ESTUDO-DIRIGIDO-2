@@ -1,0 +1,7 @@
+#F.U.P. que calcule o valor de uma coxinha, dado que o usuário vai pedir mais de uma.#
+
+import math 
+coxinha = 5.00 
+pedido = float(input("informe a quantidade de coxinhas pedidas: ")) 
+valor = coxinha * pedido 
+print("o preço das coxinhas é de:", valor, "R$") 
