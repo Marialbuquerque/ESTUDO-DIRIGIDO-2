@@ -1,0 +1,9 @@
+N = int(input("digite um numero:"))
+D = int(input("digite uma dezena:"))
+C = int(input("digite uma centena:"))
+Unidade = int(input("digite uma unidade:"))
+
+if N == (C**3 + D**3 + Unidade**3):
+ print(N, "é um número de Armstrong")
+else:
+ print(N, "não é um número de Armstrong")
