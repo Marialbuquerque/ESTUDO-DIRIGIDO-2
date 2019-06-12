@@ -1,0 +1,7 @@
+#F.U.P para imprimir todos os números ímpares da lista fornecida usando loop for e range.#
+
+Solução: 
+
+num = int(input("digite um numero:")) 
+for i in range(0, num+num, 3): 
+    print(i) 
